@@ -1,6 +1,5 @@
 # database-configuration
 1. Инициализация кластера БД
-     - Имя узла — pg118.
      - Имя пользователя — postgres0.
      - Директория кластера БД — $HOME/u23/zn16.
      - Кодировка, локаль — UTF8, английская
@@ -29,7 +28,7 @@ effective_cache_size, fsync, commit_delay. Параметры должны бы�
 в них объекты.
 
 # Инициализация кластера
-initdb --pgdata=$HOME/u23/zn16 --encoding=UTF-8 --locale=en_US --username=postgres0
+`initdb --pgdata=$HOME/u23/zn16 --encoding=UTF-8 --locale=en_US --username=postgres0`
 
 ![Вывод команды](/images/picture-1.png)
 
